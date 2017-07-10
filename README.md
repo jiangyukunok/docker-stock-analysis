@@ -3,9 +3,12 @@ dockerize stock-analysis project. A good approach to avoid installing and settin
 since the original project envolves installing various tools.
 
 How to Run:
-docker pull jiangyukunok/stock_analysis_prod:CHOOSE_A_TAG
-and in your localhost commandline, run docker run -d -p 3000:3000 jiangyukunok/stock_analysis_prod:THE_TAG,
+docker pull jiangyukunok/stock_analysis_prod:v0.2
+and in your localhost commandline, run docker run -d -p 3000:3000 jiangyukunok/stock_analysis_prod:v0.2,
 then checkout localhost:3000
+
+Dockerhub Link:
+https://hub.docker.com/r/jiangyukunok/stock_analysis_prod/
 
 Why Docker:
 From my understanding, there are a bunch of advantages using docker:
