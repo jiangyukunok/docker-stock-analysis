@@ -1,0 +1,10 @@
+docker system prune
+docker run -it repo:tag
+docker run -d -p port:port repo:tag
+docker kill containerId
+docker rmi imageId
+docker commit containerId repo:tag
+docker build -t new-repo:tag .
+docker tag imageId new-repo:tag
+docker login --username=USER_NAME
+docker push repo:tag
