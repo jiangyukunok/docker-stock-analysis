@@ -1,15 +1,16 @@
 # docker-stock-analysis
 
-How to Run:
-docker pull jiangyukunok/stock_analysis_prod:v0.2
-and in your localhost commandline, run docker run -d -p 3000:3000 jiangyukunok/stock_analysis_prod:v0.2,
+How to Run: <br/>
+<b>docker pull jiangyukunok/stock_analysis_prod:v0.2</b><br/>
+and in your localhost commandline, run <br/>
+<b>docker run -d -p 3000:3000 jiangyukunok/stock_analysis_prod:v0.2</b> <br/>
 then checkout localhost:3000
 
-Dockerhub Link:
+Dockerhub Link:<br/>
 https://hub.docker.com/r/jiangyukunok/stock_analysis_prod/
 
-Why Docker:
-From my understanding, there are a bunch of advantages using docker:
+Why Docker:<br/>
+From my understanding, there are a bunch of advantages using docker:<br/>
 1. Make the prod and dev environment setting consistent. In the normal process, it's almost inevitable that
 we come across different issues when deploy dev version to prod. Docker container provides an isolated environment,
 which can run our app regardless of prod or dev.
@@ -22,6 +23,6 @@ free from being broke.
 5. Efficiency. We can use one host to run multiple applications in different containers, instead of installing an extra os for
 each application.
 
-About This App:
+About This App:<br/>
 If not use docker, I will spend almost 1h to install all dependencies, evenif I am pretty familiar with it. There are some
 time-consuming tools like QSTK(it also needs some manual customization on QSTK after installation).
