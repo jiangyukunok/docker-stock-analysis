@@ -1,6 +1,4 @@
 # docker-stock-analysis
-dockerize stock-analysis project. A good approach to avoid installing and setting environment,
-since the original project envolves installing various tools.
 
 How to Run:
 docker pull jiangyukunok/stock_analysis_prod:v0.2
