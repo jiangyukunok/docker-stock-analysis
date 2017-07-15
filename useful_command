@@ -6,5 +6,5 @@ docker rmi imageId
 docker commit containerId repo:tag
 docker build -t new-repo:tag .
 docker tag imageId new-repo:tag
-docker login --Username=USER_NAME
+docker login --username=USER_NAME
 docker push repo:tag
