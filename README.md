@@ -23,4 +23,5 @@ each application.
 
 About This App:<br/>
 If not use docker, I will spend almost 1h each time to set up new working environment, because there are some
-time-consuming tools like QSTK(it also needs some manual customization on QSTK after installation).
+time-consuming tools like QSTK(it also needs some manual customization on QSTK after installation).<br/>
+http://wiki.quantsoftware.org/index.php?title=QuantSoftware_ToolKit
