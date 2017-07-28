@@ -1,9 +1,9 @@
 # docker-stock-analysis
 
 How to Run: <br/>
-<b>docker pull jiangyukunok/stock_analysis_prod:v0.2</b><br/>
+<b>docker pull jiangyukunok/stock-dev:1.2</b><br/>
 and in your localhost commandline, run <br/>
-<b>docker run -d -p 3000:3000 jiangyukunok/stock_analysis_prod:v0.2</b> <br/>
+<b>docker run -d -p 3000:3000 jiangyukunok/stock-dev:1.2 npm start --prefix developer/stock-analysis</b> <br/>
 then checkout localhost:3000
 
 Dockerhub Link:<br/>
