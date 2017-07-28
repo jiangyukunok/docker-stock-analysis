@@ -7,7 +7,7 @@ and in your localhost commandline, run <br/>
 then checkout localhost:3000
 
 Dockerhub Link:<br/>
-https://hub.docker.com/r/jiangyukunok/stock_analysis_prod/
+https://hub.docker.com/r/jiangyukunok/stock-dev/
 
 Why Docker:<br/>
 From my understanding, there are a bunch of advantages using docker:<br/>
