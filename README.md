@@ -4,7 +4,7 @@ How to Run: <br/>
 <b>docker pull jiangyukunok/stock-dev:1.2</b><br/>
 and in your localhost commandline, run <br/>
 <b>docker run -d -p 3000:3000 jiangyukunok/stock-dev:1.2 npm start --prefix developer/stock-analysis</b> <br/>
-then checkout localhost:3000
+then checkout localhost:3000(for docker toolbox user, need to run docker-machine ls to get ip address instead of localhost)
 
 Dockerhub Link:<br/>
 https://hub.docker.com/r/jiangyukunok/stock-dev/
