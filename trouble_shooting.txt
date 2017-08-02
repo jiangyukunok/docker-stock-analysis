@@ -1,0 +1,44 @@
+$ docker run -it ubuntu:14.04 bash
+D:\Tools\Docker\docker.exe: An error occurred trying to connect: Post http://%2F%2F.%2Fpipe%2Fdocker_engi
+ne/v1.23/containers/create: open //./pipe/docker_engine: The system cannot find the file specified..
+See 'D:\Tools\Docker\docker.exe run --help'.
+$ docker-machine status
+Stopped
+$ docker-machine start
+Starting "default"...
+(default) Check network to re-create if needed...
+(default) Waiting for an IP...
+Machine "default" was started.
+Waiting for SSH to be available...
+Detecting the provisioner...
+Started machines may have new IP addresses. You may need to re-run the `docker-machine env` command.
+$ docker run -it ubuntu:14.04 bash
+D:\Tools\Docker\docker.exe: An error occurred trying to connect: Post http://%2F%2F.%2Fpipe%2Fdocker_engi
+ne/v1.23/containers/create: open //./pipe/docker_engine: The system cannot find the file specified..
+See 'D:\Tools\Docker\docker.exe run --help'.
+$ docker-machine env --shell=bash
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.100:2376"
+export DOCKER_CERT_PATH="C:\Users\Sorin\machines\default"
+export DOCKER_MACHINE_NAME="default"
+# Run this command to configure your shell:
+# eval $("D:\Tools\Docker\docker-machine.exe" env --shell=bash)
+$ docker run -it ubuntu:14.04 bash
+D:\Tools\Docker\docker.exe: An error occurred trying to connect: Post http://%2F%2F.%2Fpipe%2Fdocker_engi
+ne/v1.23/containers/create: open //./pipe/docker_engine: The system cannot find the file specified..
+See 'D:\Tools\Docker\docker.exe run --help'.
+$ export DOCKER_TLS_VERIFY="1"
+$ export DOCKER_HOST="tcp://192.168.99.100:2376"
+$ export DOCKER_CERT_PATH="C:\Users\Sorin\machines\default"
+$ export DOCKER_MACHINE_NAME="default"
+$ docker run -it ubuntu:14.04 bash
+Unable to find image 'ubuntu:14.04' locally
+14.04: Pulling from library/ubuntu
+6c953ac5d795: Pull complete
+3eed5ff20a90: Pull complete
+f8419ea7c1b5: Pull complete
+51900bc9e720: Pull complete
+a3ed95caeb02: Pull complete
+Digest: sha256:7c151496aefa83d7d5faeff87493d471f86ff5673b829b0e1724e66be69d011c
+Status: Downloaded newer image for ubuntu:14.04
+root@b3a5d2075f3e:/#
