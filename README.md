@@ -9,6 +9,9 @@ then checkout localhost:3000(for docker toolbox user, need to run docker-machine
 Dockerhub Link:<br/>
 https://hub.docker.com/r/jiangyukunok/stock-dev/
 
+Stock Analysis Project Link: <br/>
+https://github.com/jiangyukunok/stock-analysis
+
 Why Docker:<br/>
 From my understanding, there are a bunch of advantages using docker:<br/>
 1. Make the prod and dev environment setting consistent. In the normal process, it's almost inevitable that
